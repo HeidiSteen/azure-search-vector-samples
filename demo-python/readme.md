@@ -4,12 +4,13 @@ This repository contains multiple notebooks that demonstrate how to use Azure AI
 
 Start with [**azure-search-vector-python-sample.ipynb**](code/azure-search-vector-python-sample.ipynb) for the basic steps. The code reads the `data/text-sample.json` file, which contains the input strings for which embeddings are generated. Output is a combination of human-readable text and embeddings that's pushed into a search index.
 
-![Python Vector Video](https://github.com/Azure/azure-search-vector-samples/blob/main/demo-python/data/images/python-vector-video.gif?raw=true)
+<!-- ![Python Vector Video](https://github.com/Azure/azure-search-vector-samples/blob/main/demo-python/data/images/python-vector-video.gif?raw=true) -->
 
 Once you understand the basics, continue with the following notebooks for more exploration:
 
 | Sample | Description |
 |--------|-------------|
+<<<<<<< Updated upstream
 | [backup-restore](./code/index-backup-restore/azure-search-backup-and-restore.ipynb) | Backup retrievable index fields and restore them on a new index on a different search service. |
 | [custom-embeddings](./code/custom-embeddings/azure-search-custom-vectorization-sample.ipynb) | Use a custom embedding model to vectorize content and queries. |
 | [custom-skills](./code/custom-embeddings/azure-search-custom-vectorization-sample.ipynb) | End-to-end sample that creates and calls a custom embedding model using a custom skill. This sample includes source code for an Azure function. The function uses Azure AI Vision Image Retrieval for it's built-in support of image vectorization. This sample includes the azure-search-vector-image-python.ipynb notebook that provides steps, from deployment to queries. |
@@ -20,6 +21,18 @@ Once you understand the basics, continue with the following notebooks for more e
 | [azure-search-vector-python-langchain-sample.ipynb](./code/langchain/azure-search-vector-python-langchain-sample.ipynb) | LangChain integration. |
 | [azure-search-vector-python-llamaindex-sample.ipynb](./code/azure-search-vector-python-llamaindex-sample.ipynb) | LlamaIndex integration. |
 | [vectors](./code/azure-search-vector-python-sample.ipynb) | Basic vector indexing and queries using push model APIs. **Start here**. |
+=======
+| [backup-restore](./code/index-backup-restore/azure-search-backup-and-restore.ipynb) | Backup retrievable index fields and restore it on a different search service. |
+| [custom-embeddings](./code/custom-embeddings/azure-search-custom-vectorization-sample.ipynb) | Integrated data chunking and vectorization using custom skills and open source models. |
+| [custom-skills](./code/custom-embeddings/azure-search-custom-vectorization-sample.ipynb) | Integrated data chunking and vectorization using custom skills and open source models. |
+| [integrated-vectorization](./code/integrated-vectorization/azure-search-integrated-vectorization-sample.ipynb) | Integrated data chunking and vectorization (preview) using a skills to split text and call an Azure OpenAI embedding model. |
+| [azure-search-vector-image-index-creation-python-sample.ipynb](./code/azure-search-vector-image-index-creation-python-sample.ipynb) | Vectorization using Azure AI Vision image embedding. |
+| [images (Azure AI )](./code/azure-search-vector-image-python-sample.ipynb)  | Vectorize images using Azure AI Vision image retrieval. |
+| [hugging-face](./code/azure-search-vector-python-huggingface-model-sample.ipynb)  | Vectorize using Hugging Face E5-small-V2 embedding model. |
+| [langchain](./code/langchain/azure-search-vector-python-langchain-sample.ipynb) | LangChain integration. |
+| [llamaindex](./code/azure-search-vector-python-llamaindex-sample.ipynb) | LlamaIndex integration. |
+| [vectors](./code/vectors/azure-search-vector-python-sample.ipynb) | Basic vector indexing and queries. **Start here**. |
+>>>>>>> Stashed changes
 
 ## Prerequisites
 
